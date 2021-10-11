@@ -1,5 +1,6 @@
 # Energy-Appliances-Prediction
 Aim: Predection the energy use of appliances
+
 Data Attributes
 
 date - time year-month-day hour:minute:second
@@ -61,6 +62,7 @@ rv1 - Random variable 1, nondimensional
 rv2 - Random variable 2, nondimensional
 
 Project Summary
+
 ● As the first step, we understand the data & checked for null values, and outliers and performed EDA to get better understanding of variables.
 
 ● As part of data pre-processing, we performed feature scaling and outlier removal
