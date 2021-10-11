@@ -1,4 +1,5 @@
 # Energy-Appliances-Prediction
+Aim: Predection the energy use of appliances
 Data Attributes
 
 date - time year-month-day hour:minute:second
@@ -58,3 +59,12 @@ Tdewpoint - (from Chievres weather station), Â°C
 rv1 - Random variable 1, nondimensional
 
 rv2 - Random variable 2, nondimensional
+
+Project Summary
+● As the first step, we understand the data & checked for null values, and outliers and performed EDA to get better understanding of variables .
+● As part of data pre-processing, we performed feature scaling and outlier removal
+● As so we have a Timestamp in our data, we needed to see the periodicity and trend of our dependent and independent variables.
+● We tried multiple simple models and multiple advanced models with performed hyperparameter tuning and cross validation.
+● Models Built: Linear Regression, SVR, RandomForest, Gradient Boosting XGBoost
+● Advanced Models: Stacking Regressor, Voting Regressor, Average Ensemble
+● Based on our targeted evaluation metric - RMSE and R2 scorel, we chose Stacking Regressor as the suggested model.
